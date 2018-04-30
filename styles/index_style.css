@@ -1,0 +1,117 @@
+
+body{
+   background-color: white;
+   padding-top:0px;
+   margin-top: 0px;
+}
+.container{
+  text-align: center;
+}
+.navbar{
+  height: 70px;
+}
+img{
+  margin-top: 70px;
+  width: 90%;
+  height: auto;
+}
+
+.col-lg-3, .col-md-4, .col-xs-6{
+  padding:0px !important;
+
+}
+
+.img-fluid,.img-thumbnail{
+  margin-top: 2%;
+}
+.d-block,.mb-4,.h-100{
+  width: 100%;
+  margin-right: 2%;
+  text-align: center;
+}
+
+
+
+.secttext{
+  margin-top: 2%;
+  margin-bottom: 10%;
+  text-align: right;
+}
+
+.quote{
+  font-style: italic;
+}
+.quote_person{
+  color: #2290AB;
+  font-weight: bold;
+
+  }
+
+.label{
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #2290AB;
+
+  /* #318ba2; */
+
+  /* #107D35; */
+
+  /* #751414; */
+
+  /* FA4B4B; */
+}
+
+.sect_head{
+  color: #056780;
+}
+
+hr{
+  margin-top: 5% !important;
+  margin-bottom: 5% !important;
+}
+.large-header{
+  font-size: 1.5em;
+}
+
+#sub_head{
+  color: #2290AB;
+}
+
+.align-with_image{
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  line-height: 1.5;
+}
+
+
+
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.col-lg-3:hover .overlay {
+  opacity: .5;
+}
+
+.image_text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}

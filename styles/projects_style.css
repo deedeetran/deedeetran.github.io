@@ -1,0 +1,130 @@
+
+h1{
+  margin-bottom: 3% !important;
+}
+
+h2{
+  margin-bottom: 4% !important;
+}
+hr{
+  margin-bottom: 5% !important;
+}
+.website-descript{
+  font-size: 1.2em;
+  outline: solid;
+  outline-width: thin;
+  padding-top: 8%;
+  padding-bottom: 8%;
+
+}
+
+video{
+  width: 60%;
+  height: auto;
+}
+.navbar{
+  height: 70px;
+}
+
+
+footer{
+  clear: both;
+}
+
+.bulk{
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.projects_links{
+  margin-top: 3%;
+  font-size: 1.4em;
+  margin-bottom: 10%;
+}
+
+.gifs{
+  width: 100%;
+  height: auto;
+}
+.row{
+  margin-bottom: 15%;
+}
+
+
+
+.desc_tabs {
+  width: 40%;
+  /* float: right; */
+  margin-left: 50%;
+  margin-top: 3%;
+  margin-bottom: 15%;
+  /* width: 69%; */
+  /* display: inline-block; */
+}
+
+/* #femm_tabs{
+  width: 40%;
+
+} */
+.desc-content {
+
+  width: 450px;
+  height: 170px;
+  padding:15px;
+  border-radius:3px;
+  box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+  background: #f8f9fa;
+
+}
+
+
+
+
+.alldesc{
+  float: left;
+  margin-right: 5%;
+  margin-top: 10%;
+
+}
+
+.alltabs{
+  /* float: left; */
+  /* margin-right: 3%; */
+  /* width: 100%; */
+}
+
+
+
+/*----- Tabs -----*/
+.tabs {
+  /* float: right; */
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 15%;
+  /* width: 60%; */
+  display: inline-block;
+}
+/*----- Tab Links -----*/
+/* Clearfix */
+.tab-links:after {
+  display:block;
+  clear:both;
+  content:'';
+}
+.tab-links li {
+  margin:0px 5px;
+  float:left;
+  list-style:none;
+}
+
+
+
+.carousel{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+}
