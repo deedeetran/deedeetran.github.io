@@ -13,13 +13,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-    <style>
-      /* Make the image fully responsive */
-      .carousel-inner img {
-          width: 100%;
-          height: 100%;
-      }
-    </style>
 
 
   </head>
@@ -30,7 +23,7 @@
         <ul class = "navbar-nav ml-auto">
           <li class = "nav-item"> <a class="nav-link" href="index.html"> About <span class="sr-only">(current)</span></a></li>
           <li class = "nav-item"> <a class="nav-link" href="resume.html"> Resume </a> </li>
-          <li class = "nav-item active"> <a class="nav-link" href="projects.html"> Projects </a> </li>
+          <li class = "nav-item active"> <a class="nav-link" href="projects2.html"> Projects </a> </li>
         </ul>
       </div>
     </nav>
@@ -39,14 +32,32 @@
     <img src = "Projects.png" width = "1200px" height = "300px" alt = "projects page header" id = "projects_header">
 
 
-    <h2>Websites</h2>
+
+<div id= "navbar2">
+    <!-- Grey with black text -->
+  <nav class="navbar navbar-expand-sm bg-light navbar-light justify-content-center">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#web_link">Websites</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#processing_link">Processing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#hacknyu_link">Hack NYU</a>
+      </li>
+
+    </ul>
+  </nav>
+
+</div>
+    <hr/>
 
 
+    <h2 id= "web_link">Websites</h2>
 
 
     <div class = "container">
-
-
 
 
 
@@ -81,30 +92,33 @@
 
     </div>
 
+    <div id = "processing_section">
+      <h2 id= "processing_link">Processing</h2>
 
-    <h2>Processing</h2>
 
+      <div class= "container">
+        <div class="row text-center text-lg-center">
 
-    <!-- <h1 class="my-4 text-center text-lg-left">Thumbnail Gallery</h1> -->
-    <div class= "container">
-      <div class="row text-center text-lg-center">
+          <div class="col-lg-4 col-md-4 col-xs-6">
+            <p>Galaxy Pong</p>
+            <a href="#" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="projects/pong.gif" alt="Pong in Processing" width= "1836px" height ="1034px">
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-6">
+            <p>Hate Crimes Visualization</p>
+            <a href="#" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="projects/hatecrimes.gif" alt="coming soon!" width= "1836px" height ="1034px">
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-6">
+            <p>Feminist Art Piece</p>
+            <a href="#" class="d-block mb-4 h-100">
+              <img class="img-fluid img-thumbnail" src="projects/feministart.gif" alt="coming soon!" width= "1836px" height ="1034px">
+            </a>
+          </div>
 
-        <div class="col-lg-4 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="projects/pong.gif" alt="Pong in Processing" width= "1836px" height ="1034px">
-          </a>
         </div>
-        <div class="col-lg-4 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="xyz" alt="coming soon!">
-          </a>
-        </div>
-        <div class="col-lg-4 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="xyz" alt="coming soon!">
-          </a>
-        </div>
-
       </div>
     </div>
 
@@ -119,69 +133,151 @@
 
 
 
-    <h2>Hack NYU</h2>
-    <p>Coming Soon!</p>
+    <h2 id= "hacknyu_link">Hack NYU</h2>
+
+    <div class = "container">
+      <p>My team (Shellie and Steven) and I created an app to encourage citizens of a community to help pick up litter. We used a dataset about litter in Philadelphia to generate "dummy" data for demonstration purposes. I parsed the original dataset using Python and the Google Maps API to obtain longitude and latitude values for a heat map.</p>
+
+      <div class = "row">
+      <div class="col-lg-6 col-md-4 col-xs-6">
+        <p>App Design</p>
 
 
 
 
+        <div id="demo" class="carousel slide" data-ride="carousel">
 
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+            <li data-target="#demo" data-slide-to="4"></li>
+            <li data-target="#demo" data-slide-to="5"></li>
+          </ul>
 
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <img src="projects/pitchin_images/maplabeledback.png" alt="Profile Screenshot">
+            </div>
+            <div class="carousel-item active">
+              <img src="projects/pitchin_images/loginback.png" alt="Log In Screenshot">
+            </div>
+            <div class="carousel-item">
+              <img src="projects/pitchin_images/pitchinback.png" alt="Pitch in screenshot">
+            </div>
+            <div class="carousel-item">
+              <img src="projects/pitchin_images/profileback.png" alt="Profile in screenshot">
+            </div>
+            <div class="carousel-item">
+              <img src="projects/pitchin_images/reportback.png" alt="Report Screenshot">
+            </div>
+            <div class="carousel-item">
+              <img src="projects/pitchin_images/communityback.png" alt="Community Screenshot">
+            </div>
+          </div>
 
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
 
+        </div>
 
+      </div>
 
+      <div class="col-lg-6 col-md-4 col-xs-6">
+        <p>Dataset</p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <img id = "litterdataset" src = "projects/litter_data2.png" alt ="litter csv" width= "2560" height= "1410">
+      </div>
+      <div class = "row">
+      </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <footer class="py-5 bg-light">
       <div class="container">
