@@ -115,3 +115,18 @@ hr{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    img{
+      width: 100%;
+      height: auto;
+    }
+    .large-header{
+      font-size: 1em;
+    }
+}
