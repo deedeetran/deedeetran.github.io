@@ -1,8 +1,15 @@
+@font-face {
+  font-family: "Aileron-Thin";
+  src: url("fonts/Aileron-Thin.otf");
+}
 
 
+body{
+  padding-top: 70px;
+}
 .bulk{
   text-align: center;
-  margin-top: 10%;
+  /* margin-top: 10%; */
 }
 
 .navbar{
@@ -18,6 +25,19 @@ embed{
   height: auto;
   margin-bottom: 10%;
 }
+hr{
+  margin-bottom: 8% !important;
+}
+
+.top-header{
+  font-family: "Aileron-Thin";
+  color: white;
+  width: 100%;
+  background-color: #056780;
+  padding: 75px 10px 75px 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -30,5 +50,5 @@ embed{
       width: 70%;
       height: 400px;
     }
-    
+
 }

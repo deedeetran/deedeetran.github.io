@@ -4,9 +4,8 @@ body{
    padding-top:0px;
    margin-top: 0px;
 }
-.container{
-  text-align: center;
-}
+
+
 .navbar{
   height: 70px;
 }
@@ -52,13 +51,6 @@ img{
   font-weight: bold;
   color: #2290AB;
 
-  /* #318ba2; */
-
-  /* #107D35; */
-
-  /* #751414; */
-
-  /* FA4B4B; */
 }
 
 .sect_head{
@@ -115,6 +107,8 @@ hr{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
+
 
 
 

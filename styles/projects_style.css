@@ -1,4 +1,12 @@
+@font-face {
+  font-family: "Aileron-Thin";
+  src: url("fonts/Aileron-Thin.otf");
+}
 
+
+body{
+  padding-top: 70px;
+}
 h1{
   color: #056780 !important;
   margin-bottom: 3% !important;
@@ -13,17 +21,24 @@ hr{
 .website-descript{
   background-color: #f8f9fa;
   font-size: 1.2em;
-  /* outline: solid;
-  outline-width: thin; */
   padding-top: 8%;
   padding-bottom: 8%;
 
 }
 
-#projects_header{
-  width: 70%;
-  height: auto;
+.top-header{
+  width: 100%;
+  font-family: "Aileron-Thin";
+  color: white !important;
+  background-color: #056780;
+  padding: 100px 10px 100px 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+
+
+
 
 #navbar2{
   width: 80%;
@@ -41,13 +56,7 @@ footer{
   clear: both;
 }
 
-.bulk{
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-  margin-top: 10%;
-}
+
 
 .projects_links{
   margin-top: 3%;
