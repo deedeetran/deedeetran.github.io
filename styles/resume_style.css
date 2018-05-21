@@ -16,9 +16,14 @@ body{
   height: 70px;
 }
 
-embed{
+.issuuembed{
+  width: 80%;
   margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+
 }
+
 
 #resume_header{
   width: 70%;
