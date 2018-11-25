@@ -1,6 +1,6 @@
 # deedeetran.github.io
 Personal Website
 
-This is Deanna Tran's personal website.
+This is Deanna Tran's early 2017 personal website.
 
-...currently under construction :-)
+Currently depreciated and replaces
